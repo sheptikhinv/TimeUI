@@ -28,7 +28,7 @@ public class TimeCommand extends AbstractPlayerCommand {
 
     public TimeCommand() {
         super("timehud", "Show HUD with time", false);
-        requirePermission("ru.slavagm.timeui");
+        requirePermission("timeui");
     }
 
     @Override
