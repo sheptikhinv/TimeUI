@@ -1,0 +1,13 @@
+Group {
+  LayoutMode: Left;
+  // Указываем привязку к левому (Left) и нижнему (Bottom) краям
+  // Значения 20 — это отступы (padding/margin) от краев экрана
+  Anchor: (Left: 20, Bottom: 20, Height: 72, Width: 128);
+  Padding: (Full: 20);
+  Background: #1a1a2e(0.95);
+
+  Label #MyLabel {
+    Style: (FontSize: 32, Alignment: Center);
+    Text: "MyText";
+  }
+}

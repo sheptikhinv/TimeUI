@@ -1,0 +1,8 @@
+{
+  "Group": "ru.slavagm.timeui",
+  "Name": "TimeUI",
+  "Version": "1.0.0",
+  "Description": "Add hud with time",
+  "IncludesAssetPack": true,
+  "Main": "ru.slavagm.timeui.TimeUIPlugin"
+}
