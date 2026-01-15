@@ -15,7 +15,7 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 public class TimeHUD extends CustomUIHud {
-    private Player _player;
+    private final Player _player;
 
     public TimeHUD(@NonNullDecl PlayerRef playerRef, Player player) {
         _player = player;
